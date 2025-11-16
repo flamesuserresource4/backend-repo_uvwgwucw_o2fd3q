@@ -1,0 +1,77 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [158] using StatReload
+INFO:     Started server process [160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:53742 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:53760 - "OPTIONS /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53754 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53784 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53754 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53786 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "OPTIONS /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53776 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53760 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53786 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53776 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53760 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53784 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53786 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53754 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53760 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53786 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53754 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53760 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53774 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53754 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40178 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40192 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40208 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40178 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40208 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40178 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40192 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40212 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40224 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40192 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40212 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40208 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40192 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40178 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40176 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40208 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40192 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39310 - "OPTIONS /api/builds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39310 - "POST /api/builds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59546 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59538 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59562 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59568 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59546 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59568 - "POST /api/builds/validate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59538 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59546 - "GET /api/components?type=cpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59568 - "GET /api/components?type=ram HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=gpu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59582 - "GET /api/components?type=storage HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59546 - "GET /api/components?type=motherboard HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59538 - "GET /api/components?type=psu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39318 - "GET /api/components?type=case HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59582 - "GET /api/components?type=cooler HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59546 - "GET /api/builds?top_loved=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59538 - "GET /api/builds?limit=24 HTTP/1.1" 200 OK
